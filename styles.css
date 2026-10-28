@@ -50,3 +50,10 @@ footer{text-align:center;padding:3rem;color:var(--muted);font-size:.75rem;letter
 .lb-close{position:absolute;top:1rem;right:1.5rem;background:none;border:none;color:var(--cream);font-size:2.5rem;cursor:pointer}
 .contact select{background:var(--bg);border:none;border-bottom:1px solid rgba(201,162,92,.4);color:var(--cream);font:inherit;padding:.8rem 0}
 @media(max-width:800px){.release{grid-template-columns:1fr}}
+
+.reels{display:grid;grid-template-columns:repeat(4,1fr);gap:1.4rem}
+.reel{margin:0}
+.reel video{width:100%;aspect-ratio:9/16;object-fit:cover;display:block;background:#000;border:1px solid rgba(201,162,92,.35);transition:border-color .3s}
+.reel:hover video{border-color:var(--gold)}
+.reel figcaption{padding-top:.6rem}.reel h3{margin:.2rem 0}
+@media(max-width:900px){.reels{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:62%;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:1rem}.reel{scroll-snap-align:start}}
