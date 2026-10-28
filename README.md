@@ -1,10 +1,11 @@
-# AyoSon International — Website
+# AyoSon International — Artist Website
 
-One-page luxury website (plain HTML/CSS, no build step).
+One-page site for AyoSon, a Birmingham artist (spray paint, alcohol ink, graffiti, portraits). Plain HTML/CSS + minimal JS, no build step.
 
-- `index.html` — page (hero, About, Services, Contact)
-- `styles.css` — styling (black & gold, Bodoni Moda + Montserrat via Google Fonts)
+- `index.html`: hero, About, Latest release video, Gallery (masonry + lightbox), Commissions, Order form
+- `styles.css`: black & gold styling (Bodoni Moda + Montserrat)
+- `assets/`: web-sized artwork (WebP) and promo video (H.264 MP4)
 
-All body copy and the contact email (`hello@example.com`) are **placeholders** — marked with `PLACEHOLDER` HTML comments.
+About and service copy and the contact email (`hello@example.com`) are **placeholders**, marked with `PLACEHOLDER` comments.
 
-Run locally: open `index.html` in a browser. Hosted via GitHub Pages from `main`.
+Hosted on GitHub Pages: https://didilamuert-svg.github.io/ayoson-website/
